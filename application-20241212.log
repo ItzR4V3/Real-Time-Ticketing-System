@@ -1,0 +1,271 @@
+2024-12-12 00:47:45.264 [main] INFO  config.Configuration - Configuration file exists.
+2024-12-12 00:48:50.804 [JavaFX Application Thread] INFO  ui.JavaFxInterface - Parameters successfully submitted!
+Total Tickets: 10
+Ticket Release Rate: 5
+Customer Retrieval Rate: 5
+Max Capacity: 200
+2024-12-12 00:48:53.361 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:53.363 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 5
+2024-12-12 00:48:53.363 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 10
+2024-12-12 00:48:53.364 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 15
+2024-12-12 00:48:53.364 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:48:53.364 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:53.364 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:53.365 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 20
+2024-12-12 00:48:54.362 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:54.364 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 25
+2024-12-12 00:48:54.364 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 30
+2024-12-12 00:48:54.366 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 35
+2024-12-12 00:48:54.366 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:48:54.366 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:54.366 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:54.367 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 40
+2024-12-12 00:48:55.363 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:55.365 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 45
+2024-12-12 00:48:55.366 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 50
+2024-12-12 00:48:55.366 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 55
+2024-12-12 00:48:55.366 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:48:55.366 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:55.367 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 60
+2024-12-12 00:48:55.371 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:56.364 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:56.367 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 65
+2024-12-12 00:48:56.368 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:56.369 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 70
+2024-12-12 00:48:56.369 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 75
+2024-12-12 00:48:56.370 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:56.370 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 80
+2024-12-12 00:48:56.373 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:57.365 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:57.369 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:48:57.369 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 85
+2024-12-12 00:48:57.370 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 90
+2024-12-12 00:48:57.370 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:57.371 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 95
+2024-12-12 00:48:57.372 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 100
+2024-12-12 00:48:57.373 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:48:58.367 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:58.371 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 105
+2024-12-12 00:48:58.371 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:58.371 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 110
+2024-12-12 00:48:58.372 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:58.374 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 115
+2024-12-12 00:48:58.374 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:58.374 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 120
+2024-12-12 00:48:59.367 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:59.371 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:48:59.371 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 125
+2024-12-12 00:48:59.372 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 130
+2024-12-12 00:48:59.372 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:48:59.374 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:48:59.375 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 135
+2024-12-12 00:48:59.376 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 140
+2024-12-12 00:49:00.369 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:49:00.372 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:49:00.373 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 145
+2024-12-12 00:49:00.373 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 150
+2024-12-12 00:49:00.373 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:49:00.375 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:49:00.376 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 155
+2024-12-12 00:49:00.377 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 160
+2024-12-12 00:49:01.370 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:49:01.373 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:49:01.376 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 165
+2024-12-12 00:49:01.376 [Vendor 4] INFO  core.TicketPool - Vendor 4 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:49:01.376 [Vendor 3] INFO  core.TicketPool - Vendor 3 added 5 tickets. Total tickets in pool: 25
+2024-12-12 00:49:01.376 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 20. Total Tickets Sold: 170
+2024-12-12 00:49:01.378 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 175
+2024-12-12 00:49:01.378 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 180
+2024-12-12 00:49:02.371 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:49:02.374 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:49:02.377 [Vendor 3] INFO  core.TicketPool - Vendor Threads Stopped
+2024-12-12 00:49:02.377 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 185
+2024-12-12 00:49:02.377 [Vendor 4] INFO  core.TicketPool - Vendor Threads Stopped
+2024-12-12 00:49:02.378 [Customer 3] INFO  core.TicketPool - Customer 3 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 190
+2024-12-12 00:49:02.379 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 195
+2024-12-12 00:49:02.379 [Customer 4] INFO  core.TicketPool - Customer 4 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 200
+2024-12-12 00:49:03.378 [Customer 3] INFO  core.TicketPool - Customer Threads Stopped
+2024-12-12 00:54:28.905 [main] INFO  config.Configuration - Configuration file exists.
+2024-12-12 00:54:32.596 [main] INFO  config.Configuration - Configuration Loaded! 
+Max Ticket Capacity: 200: 
+Ticket Release Rate: 5 
+Customer Retrieval Rate: 5 
+Total Tickets: 10
+2024-12-12 00:54:32.597 [main] INFO  config.Configuration - Parameters Loaded Successfully!
+2024-12-12 00:54:32.597 [main] INFO  config.Configuration - System is ready to Start
+
+2024-12-12 00:54:33.398 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:54:33.400 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 5
+2024-12-12 00:54:33.400 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 10
+2024-12-12 00:54:33.400 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:34.398 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:54:34.400 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 15
+2024-12-12 00:54:34.400 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 20
+2024-12-12 00:54:34.416 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:35.401 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 25
+2024-12-12 00:54:35.411 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 30
+2024-12-12 00:54:35.411 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:35.427 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:36.403 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 35
+2024-12-12 00:54:36.412 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 40
+2024-12-12 00:54:36.419 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:36.434 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:37.415 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 45
+2024-12-12 00:54:37.415 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 50
+2024-12-12 00:54:37.429 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:37.444 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:38.416 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 55
+2024-12-12 00:54:38.419 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 60
+2024-12-12 00:54:38.434 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:38.449 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:39.425 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 65
+2024-12-12 00:54:39.425 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 70
+2024-12-12 00:54:39.440 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:39.454 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:40.439 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 75
+2024-12-12 00:54:40.439 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 80
+2024-12-12 00:54:40.455 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:40.456 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:41.442 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 85
+2024-12-12 00:54:41.442 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 90
+2024-12-12 00:54:41.456 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:41.458 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:42.449 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 95
+2024-12-12 00:54:42.450 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 100
+2024-12-12 00:54:42.465 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:42.465 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:43.451 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 105
+2024-12-12 00:54:43.453 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 110
+2024-12-12 00:54:43.468 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:43.469 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:44.461 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 115
+2024-12-12 00:54:44.461 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 120
+2024-12-12 00:54:44.477 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:44.477 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:45.466 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 125
+2024-12-12 00:54:45.466 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 130
+2024-12-12 00:54:45.481 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:45.481 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:46.473 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 135
+2024-12-12 00:54:46.473 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 140
+2024-12-12 00:54:46.489 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:46.489 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:47.486 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 145
+2024-12-12 00:54:47.486 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 150
+2024-12-12 00:54:47.502 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:47.502 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:48.495 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 155
+2024-12-12 00:54:48.496 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 160
+2024-12-12 00:54:48.502 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:48.511 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:49.508 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:54:49.508 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 165
+2024-12-12 00:54:49.509 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 170
+2024-12-12 00:54:49.524 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:50.509 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 175
+2024-12-12 00:54:50.509 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:50.510 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 180
+2024-12-12 00:54:50.525 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:51.516 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 185
+2024-12-12 00:54:51.516 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 190
+2024-12-12 00:54:51.516 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:54:51.532 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:54:52.516 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 195
+2024-12-12 00:54:52.523 [Vendor 1] INFO  core.TicketPool - Vendor Threads Stopped
+2024-12-12 00:54:52.523 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 200
+2024-12-12 00:54:53.517 [Customer 1] INFO  core.TicketPool - Customer Threads Stopped
+2024-12-12 00:55:24.614 [main] INFO  config.Configuration - Configuration file exists.
+2024-12-12 00:55:26.208 [main] INFO  config.Configuration - Configuration Loaded! 
+Max Ticket Capacity: 200: 
+Ticket Release Rate: 5 
+Customer Retrieval Rate: 5 
+Total Tickets: 10
+2024-12-12 00:55:26.209 [main] INFO  config.Configuration - Parameters Loaded Successfully!
+2024-12-12 00:55:26.209 [main] INFO  config.Configuration - System is ready to Start
+
+2024-12-12 00:55:28.170 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:28.173 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 5
+2024-12-12 00:55:28.173 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 10
+2024-12-12 00:55:28.173 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:29.171 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:29.173 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 20
+2024-12-12 00:55:29.173 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 15. Total Tickets Sold: 15
+2024-12-12 00:55:29.173 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 20
+2024-12-12 00:55:30.174 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:30.174 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 25
+2024-12-12 00:55:30.178 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 30
+2024-12-12 00:55:30.178 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:31.176 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 35
+2024-12-12 00:55:31.176 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:31.191 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:31.191 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 40
+2024-12-12 00:55:32.185 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 45
+2024-12-12 00:55:32.185 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:32.201 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 50
+2024-12-12 00:55:32.201 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:33.188 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:33.189 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 55
+2024-12-12 00:55:33.203 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 60
+2024-12-12 00:55:33.203 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:34.196 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:34.196 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 65
+2024-12-12 00:55:34.204 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 70
+2024-12-12 00:55:34.211 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:35.208 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 75
+2024-12-12 00:55:35.208 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 80
+2024-12-12 00:55:35.208 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:55:35.223 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:36.208 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 85
+2024-12-12 00:55:36.208 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 90
+2024-12-12 00:55:36.208 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:55:36.223 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:37.209 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 95
+2024-12-12 00:55:37.209 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 100
+2024-12-12 00:55:37.215 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 5
+2024-12-12 00:55:37.230 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:38.222 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:38.222 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 105
+2024-12-12 00:55:38.222 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 110
+2024-12-12 00:55:38.236 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:39.233 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:39.233 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 115
+2024-12-12 00:55:39.233 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 120
+2024-12-12 00:55:39.247 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:40.240 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:40.240 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 125
+2024-12-12 00:55:40.241 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 130
+2024-12-12 00:55:40.255 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:41.242 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:41.246 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 135
+2024-12-12 00:55:41.246 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 140
+2024-12-12 00:55:41.262 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:42.244 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:42.249 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 145
+2024-12-12 00:55:42.249 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 150
+2024-12-12 00:55:42.263 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:43.251 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:43.251 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 155
+2024-12-12 00:55:43.251 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 160
+2024-12-12 00:55:43.267 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:44.252 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:44.252 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 165
+2024-12-12 00:55:44.266 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 170
+2024-12-12 00:55:44.282 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:45.260 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:45.260 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 175
+2024-12-12 00:55:45.276 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 180
+2024-12-12 00:55:45.290 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:46.271 [Vendor 2] INFO  core.TicketPool - Vendor 2 added 5 tickets. Total tickets in pool: 15
+2024-12-12 00:55:46.271 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 10. Total Tickets Sold: 185
+2024-12-12 00:55:46.286 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 190
+2024-12-12 00:55:46.302 [Vendor 1] INFO  core.TicketPool - Vendor 1 added 5 tickets. Total tickets in pool: 10
+2024-12-12 00:55:47.282 [Vendor 2] INFO  core.TicketPool - Vendor Threads Stopped
+2024-12-12 00:55:47.282 [Customer 2] INFO  core.TicketPool - Customer 2 bought 5 tickets. Tickets remaining in pool: 5. Total Tickets Sold: 195
+2024-12-12 00:55:47.298 [Customer 1] INFO  core.TicketPool - Customer 1 bought 5 tickets. Tickets remaining in pool: 0. Total Tickets Sold: 200
+2024-12-12 00:55:48.296 [Customer 2] INFO  core.TicketPool - Customer Threads Stopped
+2024-12-12 00:57:47.148 [main] INFO  config.Configuration - Configuration file exists.
+2024-12-12 01:00:05.467 [JavaFX Application Thread] INFO  ui.JavaFxInterface - Parameters successfully submitted!
+Total Tickets: 10
+Ticket Release Rate: 5
+Customer Retrieval Rate: 5
+Max Capacity: 200
