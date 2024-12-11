@@ -1,5 +1,5 @@
 package threads;
-import core.Main;
+import core.TicketingSystem;
 import core.TicketPool;
 
 /**
@@ -28,7 +28,7 @@ public class Customer implements Runnable {
     public void run() {
 
         try {
-            while (!Main.customerThreads) {
+            while (!TicketingSystem.customerThreads) {
                 ticketPool.removeTickets(ticketRetrievalRate); // Remove tickets at the customer rate
                 Thread.sleep(1000); // Wait for 1 second before buying more
             }

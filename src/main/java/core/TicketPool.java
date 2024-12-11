@@ -58,7 +58,7 @@ public class TicketPool {
     public synchronized void addTickets(int ticketReleaseRate) throws InterruptedException {
         // Prevent exceeding maxTicketCapacity
         while (tickets.size() + totalTicketsSold >= maxTicketCapacity) {
-            Main.vendorThreads = true;
+            TicketingSystem.vendorThreads = true;
             notifyAll();
             logger.info("Vendor Threads Stopped");
             if (tableLogger != null) {
@@ -95,7 +95,7 @@ public class TicketPool {
      */
     public synchronized void removeTickets(int ticketRetrievalRate) throws InterruptedException {
         while (tickets.size() < ticketRetrievalRate && totalTicketsSold <= maxTicketCapacity) {
-            if (Main.vendorThreads && !tickets.isEmpty()) {
+            if (TicketingSystem.vendorThreads && !tickets.isEmpty()) {
                 int ticketsToBuy = tickets.size();
 
                 for (int i = 0; i < ticketsToBuy; i++) {
@@ -111,8 +111,8 @@ public class TicketPool {
 
                 return;
             }
-            if (totalTicketsSold == maxTicketCapacity && Main.vendorThreads) {
-                Main.customerThreads = true;
+            if (totalTicketsSold == maxTicketCapacity && TicketingSystem.vendorThreads) {
+                TicketingSystem.customerThreads = true;
                 logger.info("Customer Threads Stopped");
                 if (tableLogger != null) {
                     tableLogger.logMessage("Customer Threads Stopped");

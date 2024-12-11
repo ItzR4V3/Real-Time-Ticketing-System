@@ -1,5 +1,6 @@
 package ui;
 
+import core.TicketingSystem;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -12,7 +13,6 @@ import org.apache.logging.log4j.Logger;
 import javafx.animation.PauseTransition;
 import javafx.util.Duration;
 
-import core.Main;
 import logger.TableLogger;
 import core.TicketPool;
 import threads.Vendor;
@@ -224,8 +224,8 @@ public class JavaFxInterface extends Application {
                             customerThread.start();
                         }
                         statusLabel.setText("Threads started successfully!");
-                        //Main.vendorThreads = true;
-                        //Main.customerThreads = true;
+                        //TicketingSystem.vendorThreads = true;
+                        //TicketingSystem.customerThreads = true;
                         systemStatusLabel.setText("System Running! ");
                     }
                     else {
@@ -261,8 +261,8 @@ public class JavaFxInterface extends Application {
             maxCapacityField.setText("");
             vendorCountField.setText("");
             customerCountField.setText("");
-            Main.customerThreads = false;
-            Main.vendorThreads = false;
+            TicketingSystem.customerThreads = false;
+            TicketingSystem.vendorThreads = false;
             for (Thread thread : threads) {
                 thread.interrupt(); // Signal threads to stop
             }

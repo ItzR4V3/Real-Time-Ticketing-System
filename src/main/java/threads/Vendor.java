@@ -1,5 +1,5 @@
 package threads;
-import core.Main;
+import core.TicketingSystem;
 import core.TicketPool;
 /**
  * A thread that adds tickets to the pool at a specific rate.
@@ -26,7 +26,7 @@ public class Vendor implements Runnable {
     @Override
     public void run() {
         try {
-            while (!Main.vendorThreads) {
+            while (!TicketingSystem.vendorThreads) {
                 ticketPool.addTickets(ticketReleaseRate); // Add tickets at the vendor rate
                 Thread.sleep(1000); // Wait for 1 second before adding more
 

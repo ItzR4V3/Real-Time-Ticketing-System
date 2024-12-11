@@ -9,12 +9,12 @@ import threads.Customer;
  * The main class that manages the ticketing system.
  * It initializes the ticket pool and manages vendor and customer threads.
  */
-public class Main{
+public class TicketingSystem {
     /**
-     * Default constructor for Main.
+     * Default constructor for TicketingSystem.
      * Initializes the main control mechanisms for the application.
      */
-    public Main() {};
+    public TicketingSystem() {};
 
     /**
      * Flag to control vendor threads. Set to true to signal threads to stop.
