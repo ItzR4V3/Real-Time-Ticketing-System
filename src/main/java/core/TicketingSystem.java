@@ -4,7 +4,6 @@ import config.Configuration;
 import threads.Vendor;
 import threads.Customer;
 
-
 /**
  * The main class that manages the ticketing system.
  * It initializes the ticket pool and manages vendor and customer threads.
@@ -51,22 +50,26 @@ public class TicketingSystem {
         int customer_count = config.vendCustom_configuration("Customer");
         System.out.println("Press Enter to stop all threads...");
 
+        //Creating Vendor threads based on the user input
         for (int i = 0; i < vendor_count; i++) {
             Thread vendor_thread = new Thread(new Vendor(ticketPool, ticketReleaseRate),"Vendor "+(i+1));
             vendor_thread.start();
         }
 
+        //Creating Customer threads based on the user input
         for (int i = 0; i < customer_count; i++) {
             Thread custormer_thread = new Thread(new Customer(ticketPool, customerRetrievalRate),"Customer "+(i+1));
             custormer_thread.start();
         }
 
+        //Wait for an input to terminate the system
         Scanner getInput = new Scanner(System.in);
         getInput.nextLine(); // Wait for Enter input
         vendorThreads = true;// Set it to true to stop the threads. Threads
         customerThreads = true;
 
         System.out.println("All threads stopped. Exiting program.");
+        System.exit(0);
 
     }
 }

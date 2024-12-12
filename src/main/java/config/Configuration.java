@@ -71,10 +71,10 @@ public class Configuration {
      */
     public void parameter_configuration() {
         System.out.println("Enter the Configuration Settings ");
-        maxTicketCapacity = parameter_errorhandling("Max Ticket Capacity: ", 0, 200);
-        ticketReleaseRate = parameter_errorhandling("Ticket Release Rate: ", 0, 20);
-        customerRetrievalRate = parameter_errorhandling("Customer Retrieval Rate: ", 0, 10);
-        totalTickets = parameter_errorhandling("Total Ticket Count: ", 0, 100);
+        maxTicketCapacity = parameter_errorhandling("Max Ticket Capacity: ", 1, 200);
+        ticketReleaseRate = parameter_errorhandling("Ticket Release Rate: ", 1, 5);
+        customerRetrievalRate = parameter_errorhandling("Customer Retrieval Rate: ", 1, 5);
+        totalTickets = parameter_errorhandling("Total Ticket Count: ", 1, 100);
 
         while (true) {
             try {

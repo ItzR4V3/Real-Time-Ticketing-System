@@ -99,10 +99,12 @@ public class JavaFxInterface extends Application {
         Button stopButton = new Button("Stop Threads");
         Button resetButton = new Button("Reset");
 
+        //Vendor Count Input Fields
         Label vendorCountLabel = new Label("Vendor Count (1-5):");
         TextField vendorCountField = new TextField();
         vendorCountField.setPromptText("Vendor Count must be between 1 and 5");
 
+        //Customer Count Input Fields
         Label customerCountLabel = new Label("Customer Count (1-5):");
         TextField customerCountField = new TextField();
         customerCountField.setPromptText("Customer Count must be between 1 and 5");
@@ -128,6 +130,7 @@ public class JavaFxInterface extends Application {
                 customerRetrievalRate = Integer.parseInt(customerRetrievalRateField.getText());
                 maxCapacity = Integer.parseInt(maxCapacityField.getText());
 
+                //Check all the user inputs are in range
                 if (totalTickets >= 0 && totalTickets <= maxCapacity && ticketReleaseRate > 0 && ticketReleaseRate <= 5 &&
                         customerRetrievalRate > 0 && customerRetrievalRate <= 5 && maxCapacity > 0 && maxCapacity <= 200) {
 
@@ -156,6 +159,7 @@ public class JavaFxInterface extends Application {
             clearLabelAfterDelay(statusLabel);
         });
 
+        //Save Config Button Action
         saveConfigButton.setOnAction(e -> {
             if (parametersConfigured) {
                 try {
@@ -177,6 +181,7 @@ public class JavaFxInterface extends Application {
             clearLabelAfterDelay(statusLabel);
         });
 
+        //Load Config Button Action
         loadConfigButton.setOnAction(e -> {
             FileHandler fileHandler = new FileHandler();
             File configFile = new File("config.json");
@@ -205,6 +210,7 @@ public class JavaFxInterface extends Application {
             clearLabelAfterDelay(loadStatusLabel);
         });
 
+        //Thread Start Button Action
         startButton.setOnAction(e -> {
             if (parametersConfigured) {
                 try {
@@ -242,6 +248,7 @@ public class JavaFxInterface extends Application {
             clearLabelAfterDelay(loadStatusLabel);
         });
 
+        //Thread Stop Button Action
         stopButton.setOnAction(e -> {
             for (Thread thread : threads) {
                 thread.interrupt(); // Signal threads to stop
@@ -253,6 +260,7 @@ public class JavaFxInterface extends Application {
             clearLabelAfterDelay(statusLabel);
         });
 
+        //Reset Button Action
         resetButton.setOnAction(e -> {
             logsTable.getItems().clear();
             totalTicketsField.setText("");
@@ -283,6 +291,7 @@ public class JavaFxInterface extends Application {
         functionButtons.setPadding(new Insets(10));
         functionButtons.setAlignment(Pos.CENTER);
 
+        //Vbox containing all the fields, labels, buttons(Left Side)
         VBox parameterFieldsLayout = new VBox(10, totalTicketsLabel, totalTicketsField,
                 ticketReleaseRateLabel, ticketReleaseRateField,
                 customerRetrievalRateLabel, customerRetrievalRateField,

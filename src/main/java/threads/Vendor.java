@@ -8,7 +8,6 @@ public class Vendor implements Runnable {
     private final TicketPool ticketPool;
     private final int ticketReleaseRate; // Tickets added per second
 
-
     /**
      * Creates a new Vendor.
      *

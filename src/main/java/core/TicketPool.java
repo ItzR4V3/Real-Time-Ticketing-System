@@ -46,7 +46,6 @@ public class TicketPool {
             tickets.add(i);
         }
     }
-
     /**
      * Adds tickets to the pool, up to the specified ticketReleaseRate.
      * The method ensures that the pool does not exceed the maximum ticket capacity.
@@ -73,9 +72,11 @@ public class TicketPool {
             tickets.add(nextTicketNumber++);
         }
 
-        // Log a single consolidated message
+        // Log the addition of tickets in a consolidated message
         if (ticketsToAdd > 0) {
+            //Prevent NullPointer errors then running the javaCLI
             if (tableLogger != null) {
+                //For the ListView
                 tableLogger.logMessage(Thread.currentThread().getName() + " added " + ticketsToAdd + " tickets. Total " +
                         "tickets in pool: " + tickets.size());
             }
@@ -94,6 +95,7 @@ public class TicketPool {
      * @throws InterruptedException If the thread is interrupted while waiting.
      */
     public synchronized void removeTickets(int ticketRetrievalRate) throws InterruptedException {
+        // Wait until there are enough tickets to fulfill the retrieval request or tickets are sold out
         while (tickets.size() < ticketRetrievalRate && totalTicketsSold <= maxTicketCapacity) {
             if (TicketingSystem.vendorThreads && !tickets.isEmpty()) {
                 int ticketsToBuy = tickets.size();
@@ -111,9 +113,11 @@ public class TicketPool {
 
                 return;
             }
+            // Stop customer threads if tickets are sold out and vendors are no longer running
             if (totalTicketsSold == maxTicketCapacity && TicketingSystem.vendorThreads) {
                 TicketingSystem.customerThreads = true;
                 logger.info("Customer Threads Stopped");
+                //Prevent NullPointer errors then running the javaCLI
                 if (tableLogger != null) {
                     tableLogger.logMessage("Customer Threads Stopped");
                 }
@@ -121,7 +125,7 @@ public class TicketPool {
             wait();
         }
 
-        // Calculate how many tickets can actually be bought
+        // Remove the calculated number of tickets from the pool and update total tickets sold
         int ticketsToBuy = Math.min(ticketRetrievalRate, tickets.size());
         for (int i = 0; i < ticketsToBuy; i++) {
             tickets.poll();
@@ -130,6 +134,7 @@ public class TicketPool {
 
         // Log a single consolidated message
         if (ticketsToBuy > 0) {
+            //Prevent NullPointer errors then running the javaCLI
             if (tableLogger != null) {
                 tableLogger.logMessage(Thread.currentThread().getName() + " bought " + ticketsToBuy + " tickets. Tickets " +
                         "remaining in pool: " + tickets.size()+". Total Tickets Sold: "+totalTicketsSold);

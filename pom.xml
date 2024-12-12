@@ -21,7 +21,6 @@
             <version>23.0.1</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -33,7 +32,6 @@
             <version>2.17.1</version>
         </dependency>
 
-
     </dependencies>
 
     <properties>
@@ -41,18 +39,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.openjfx</groupId>
-                <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.8</version>
-                <configuration>
-                    <mainClass>ui.JavaFxInterface</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
