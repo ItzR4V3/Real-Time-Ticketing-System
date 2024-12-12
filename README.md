@@ -19,7 +19,13 @@ https://github.com/ItzR4V3/Real-Time-Ticketing-System
 
 3. (Java CLI) Run the TicketingSystem.java
 
-4. (JavaFx) Run the JavaFxInterface.java that located in "ui" package.
+4. (JavaFx) Create a new Run/Debug Configuration with vm options added as
+
+--module-path javafx-sdk-21.0.5\lib --add-modules javafx.controls,javafx.fxml
+
+5. Set the Class name ui.JavaFxInterface
+
+6. Run the Custom Configuration
 
 # How to Run using the Console 
 
