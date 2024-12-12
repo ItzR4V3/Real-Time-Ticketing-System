@@ -5,22 +5,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Real Time Ticketing System</artifactId>
+    <artifactId>test</artifactId>
     <version>1.0</version>
 
     <dependencies>
+        <!-- Google Gson for JSON handling -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.11.0</version>
         </dependency>
 
+        <!-- JavaFX -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>23.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>23.0.1</version>
+        </dependency>
 
+        <!-- Log4j for Logging -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -31,13 +39,34 @@
             <artifactId>log4j-core</artifactId>
             <version>2.17.1</version>
         </dependency>
-
     </dependencies>
 
     <properties>
+        <!-- Java version -->
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
+
+    <profiles>
+        <!-- JavaFX profile for local SDK -->
+        <profile>
+            <id>javafx</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <javafx.module.path>javafx-sdk-21.0.5/lib</javafx.module.path>
+            </properties>
+        </profile>
+    </profiles>
 
 </project>
